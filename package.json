@@ -4,7 +4,8 @@
   "description": "takes an url and make it short",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index"
   },
   "repository": {
     "type": "git",
@@ -15,6 +16,7 @@
   "dependencies": {
     "express": "^4.19.2",
     "mongoose": "^8.5.2",
-    "nanoid": "^5.0.7"
+    "nodemon": "^3.1.4",
+    "shortid": "^2.2.16"
   }
 }
