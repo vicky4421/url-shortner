@@ -8,5 +8,4 @@ const app = express()
 const PORT = 8001
 
 // assign port to app
-app.listen(PORT, () => console.log(`app started on port: ${PORT}`);
- )
+app.listen(PORT, () => console.log(`app started on port: ${PORT}`))
